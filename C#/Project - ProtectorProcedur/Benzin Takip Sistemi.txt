@@ -1,0 +1,94 @@
+
+
+1. PROJE KÜNYESÝ VE ANALÝZÝ
+
+1.1. Projenin Adý : Yakýt Takip Sistemi
+1.2. Proje Yöneticileri : Batuhan Atabey
+1.3. Çýkýþ Notasý:
+	Projemin çýkýþ noktasýný bir araç ile yola çýktýðýmýz zaman aklýmýza bir kaç soru geliyor."Acaba
+yakýtým bu yol için yeterli olurmu?" sorusundan yola çýktým.Bu problemi çözmek için alternatif çözümler
+aradým ve projemi bu yönden ilerletmeye karar verdim.
+
+1.4. Amacý:
+	Araç ile yola çýktýðýmýzda "Acaba yakýtým bu yol için yeterli olur mu?" sorusundan yola çýktýðým için
+bu soruna yönelik bir çözüm arayýþýna girdim.Öncellikle kullancý(arac sahibi) sisteme giriþ yapýcak ve daha
+sonrasýnda gitmek istediði konumu belirticek ve oraya kadar sabit kaç hýzla gidebiliceðini yazýcak.Algoritmada
+bu bilgilere dayanarak dönücek ve bir sonuç üretecek.Eðer yakýt yeterli ise " Yakýtýnýz gideceginiz konuma kadar
+yeterlidir." , eðer yakýt yeterli deðil ise " Yakýtýnýz gideceðiniz konuma kadar yeterli deðildir." mesajýný
+ekrana yazdýrýcak ve eðer yakýt yeterli deðil ise yol üzerindeki en yakýn yakýt istasyonunun konum bilgilerini
+ekrana yazdýrýcak ve kullanýcý bu sayede yol üzerinde bulabileceði bir yakýt istasyonu olduðunu görücek ve
+o yakýt istasyonuna doðru ilerleyip yakýt sorununu çözücek.
+
+1.5. Projenin getirdiði yenilikler:
+	Projemizin saðlayacý yenilikler , araçlarýn yolda kalma durumu minimalize edecektir. Bunun dýþýnda 
+yakýt istasyonu ile araçlar arasýnda sanal bir bað kuracaktýr.
+
+1.6. Proje rakip alternatifleri:
+	Projenin alternatiflerine örnek olarak taksicilerin kullandýðý ve bir yol kat etme üzerine bize fiyat gösteren 
+cihazý verebiliriz.Bu cihazda taksi ne kadar yakýt yakarsa yani ne kadar yol kat ederse fiyatda o kadar artýyor.Benim 
+sistemimde ise para yerine sadace bilgiye entegre bir sistem olmasýný planlamaktayým.
+
+1.7.Sistemin çalýþma düzeni
+
+1.7.1. Senaryo:
+
+1) Arac kullanýcýlarý  sisteme giriþ yaparak gitmek istediði koordinatý belirticek.
+2) Aracýn mevcut yakýt miktarý ile belirtilen koordinata kadar gidilicek yakýt miktarý hesaplanýcak.
+3) Eðer mevcut yakýt , belirtilen koordinata gidilicek olan yakýttan fazla veya eþit ise ekrana "Yakýtýnýz gideceðiniz
+konuma kadar yeterli." , eðer küçük ise " Yakýtýnýz gideceðiniz konuma kadar yetersiz." mesaji çýkýcak.
+4) Eðer mevcut yakýt yeterli deðil ise yol üzerindeki en yakýn yakýt istasyonunu konum bilgileri ekranda çýkýcak.
+
+
+
+1.7.2 Kurallarý:
+
+1.7.2.1. Gaz durumu:
+	Koordinatlar hesaplarken gaz miktarýnýnýda önemi çok büyük bu yüzden araçýn mevcut yani þuanki gaz miktarindan yola çýkarak hesaplamalar yapýlýcak
+ve gaz miktarý artar ya da azalýrsa dönen sonuçda bu yönde deðiþiklik gösterip yeniden ekrana bildirim yazýcak.
+
+
+
+1.7.3. Sistemin kapsamý:
+	Sistemin kapsadýðý alan olarak bütün araçlarý gösterebiliriz.Sadace arabalar ile sýnýrlý olmayip ayni þekilde bu sistemi uçaklara,trenlere,gemilere de
+entegre edebiliriz.
+
+1.8. Varlýklarýn tanýtýmý:
+
+1.8.1. Kullanýcý(insan ,arac sahibi) : Memelilerden, iki eli, iki ayaðý bulunan, iki ayak üzerinde dik bir biçimde dolaþan, aklý ve düþünme yeteneði olan,
+ dille, sözle anlaþan, en geliþmiþ canlý sayýlan yaratýk.
+1.8.2. Araç : Bir iþte gücünden yararlanýlan nesne.
+
+
+1.9. Proje hedef kitlesi, talibi:
+
+	Arac sahipleri ve araca kullanan insanlar.Bunun dýþýnda yakýt istasyonularý , bu istasyonlarýn sahipleri , çalýþanlarý , sahipleri bu projenin hedef
+kitlesidir.
+
+	
+1.10 Projede kullanýlmasý planlanan metot ve araçlar:
+1.10.1. Araç yakýt deposunda yakýtý kontrol edebilicek araç:
+	Yakýt miktarý hesaplanýrken bu depodaki mevcut yakýt miktarýný hesaplayacak bir araca ihtiyacýmýz var.
+1.10.2. Araç içinde bu sisteme engtegre edebileceðimiz bir bölüm:
+	Araç içinde bu sistemi entegre edebileceðimiz bir ekran , tablet veya herhangi bir sistem gereksinimi gereklidir.
+
+3.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

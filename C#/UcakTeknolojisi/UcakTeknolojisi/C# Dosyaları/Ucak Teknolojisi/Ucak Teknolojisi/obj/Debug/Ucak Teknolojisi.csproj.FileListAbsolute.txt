@@ -1,0 +1,16 @@
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\bin\Debug\Ucak Teknolojisi.exe.config
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\bin\Debug\Ucak Teknolojisi.exe
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\bin\Debug\Ucak Teknolojisi.pdb
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\obj\Debug\Ucak Teknolojisi.csprojAssemblyReference.cache
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\obj\Debug\Ucak_Teknolojisi.Form1.resources
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\obj\Debug\Ucak_Teknolojisi.Properties.Resources.resources
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\obj\Debug\Ucak Teknolojisi.csproj.GenerateResource.cache
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\obj\Debug\Ucak Teknolojisi.csproj.CoreCompileInputs.cache
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\obj\Debug\Ucak Teknolojisi.exe
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\obj\Debug\Ucak Teknolojisi.pdb
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\bin\Debug\itextsharp.dll
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\obj\Debug\Ucak Teknolojisi.csproj.CopyComplete
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\obj\Debug\Ucak_Teknolojisi.GirisPanel.resources
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\obj\Debug\Ucak_Teknolojisi.OgretmenPanel.resources
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\obj\Debug\Ucak_Teknolojisi.GanoHesaplama.resources
+C:\Users\batuh\source\repos\Ucak Teknolojisi\Ucak Teknolojisi\obj\Debug\Ucak_Teknolojisi.imza.resources

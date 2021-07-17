@@ -1,0 +1,11 @@
+﻿Programın yetkili girişi için gerekli bilgiler:
+
+Kullanıcı Adı: tahir
+Şifre: gelisim
+
+
+
+Bu program İstanbul Gelişim Üniversitesi , Görsel Programlama II dersine itaben hazırlanmıştır.
+
+
+Batuhan Atabey - 170111006 - Bilgisayar Programçılığı İÖ

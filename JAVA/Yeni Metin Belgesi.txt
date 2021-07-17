@@ -1,0 +1,66 @@
+sýnýf nedir metot nedir guardian collection nedir gettlar settlar vb gibi tanýmlar.
+uml dikdörtgenleri
+-baþlýk
+-int vb
+-metotlar get  set..
+
+public static deger dondur
+void deðer deðiþtirir
+
+
+
+   public static void main(String[] args) {
+        
+        char[] harfler = new char[5];
+        Scanner oku = new Scanner(System.in);
+        for(int k =0 ; k<5;k++){
+        
+            System.out.println(k+".Harfi giriniz");
+            harfler[k] = oku.next().charAt(0);
+                    
+        }
+        
+        for(int r=0; r<5;r++){
+        System.out.println(harfler[4-r]);
+        }
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+  int[][] notlar = new int[3][4];
+            
+             Scanner oku = new Scanner(System.in);
+             String[] ogrenciler = {"Fatma","Ayse","Huseyin","Firat","Ali"};
+             for(int a=0; a<2;a++){
+                 for(int b=0;b<=4;b++){
+                System.out.println(ogrenciler[a]+"isimli ogrencinin Notunu girin:");
+                notlar[1][b] = oku.nextInt();
+                System.out.println(ogrenciler[a]+"isimli ogrencinin NTP girin:");
+                notlar[2][b] = oku.nextInt();
+                System.out.println(ogrenciler[a]+"isimli ogrencinin VT girin:");
+                notlar[3][b] = oku.nextInt();
+                 }
+             }
+             
+             
+             for(int a=0; a<2;a++){
+                 for(int b=0;b<=4;b++){
+                System.out.println(ogrenciler[a]+"isimli ogrencinin Notunu "+notlar[1][b]);
+                
+                System.out.println(ogrenciler[a]+"isimli ogrencinin NTP "+notlar[2][b]);
+              
+                System.out.println(ogrenciler[a]+"isimli ogrencinin VT "+notlar[3][b]);
+               
+                 }
+             }
+

@@ -1,0 +1,205 @@
+Koruyucu Procedur
+
+1. PROJE KÜNYESÝ VE ANALÝZÝ
+
+1.1. Projenin Adý : Koruyucu Procedur
+1.2. Proje Yöneticileri : Batuhan Atabey
+1.3. Çýkýþ Notasý:
+	Projemin çýkýþ noktasýný her zaman bizi koruyup , kollayan askerlerimize bu zor görevlerinde 
+yüklerini hafifletebilicek bir konu olmasýný istedim.Onlar biz rahatca evlerimizde oturmamýzý , sokak
+da rahatca yürememizi , ülkemizini güvenliðini saðlarken bu kadar sorumluluk onlarýn omuzundayken bende
+onlarýn yükünü hafifletmek amaçýyla bir proje tasarlamak istedim.
+
+1.4. Amacý:
+	Projem askerlerin sorumluluðunu hafifletmek amacýyla yaptýðým için onlarýn zor durumlarýnda onlara
+bir yardým kapýsý açmayi hedefledim.Askerimiz yaralý durumda veya yardýma ihtiyacý olduðu bir durumda sisteme
+giriþ yapýcak ve daha sonra sistem için gerekli bilgileri (ad,soyad,koordinat bilgisi vb.) giricek. Daha 
+sonrasýnda sisteme girmiþ olduðu bilgiler askeri üsse ulaþtýrýlýcak , eðer askeri üs iþlemi onaylarsa ona
+en yakýn olan yardým birimlerini(koruyucularý) askerin ekranýna yazdýrýcak veya askerimize yardým birimi
+göndericek.Bu þekilde askerimiz oradan alýnýp veya hedef bölgeye ilerleyip güvenliðini saðlamayi hedefledim.
+
+1.5. Projenin getirdiði yenilikler:
+	Projemizin saðlayacý yenilikler , askerler ve koruyucular arasýnda daha önce oluþmamýþ bir bað oluþturmak
+Bu bað sayesinde askerlerimizin güvenliði artýcak ve bu sistem askerlerimizin güvenliðini saðlýyýcak
+bu sayede daha güçlü bir güvenlik sistemimiz olucak.Buda ülkemizi dýþ tehdit unsurlarýndan korunmamýzý saðlýyýcak
+ve bu tehlikeli olaylardan daha az zararla çýkmamýzý saðlayacak.
+
+1.6. Proje rakip alternatifleri:
+	Projeyi tasarladýkdan sonra bu projenin daha önce yapýlýp , yapýlmadýðýný öðrenmek için araþtýrma yaptým ve
+araþtýrmam neticesinde bu projenin fikrinin daha önce bir alanda kullandýðýný görmedim.Belkide vardýr ama bu gizli olduðu
+için araþtýrma neticesinde bulumamýþ olabilir.Bu yüzden projemin daha önce kullanýlmadýðýný kesin olarak belirtemem.
+Eðer bu fikir gizli olarak hayata geçmemiþ ise þuanda bir alternatif olmadýðýný söyleyebilirim.
+
+1.7.Sistemin çalýþma düzeni
+
+1.7.1. Senaryo:
+
+1) Eðer bir asker yararlý veya yardýma ihtiyacý olduðu bir durumda ise sisteme giriþ yapýcak.
+2) Sisteme giriþ yapýldýkdan sonra askerden bilgiler alýnýcak(isim,koordinat bilgisi,vb.).
+3) Sisteme girilen veriler askeri üsse gidicek ve daha sonrasýnda onay istenicek.
+3.1) Eðer iþleme onay verilirse:
+	- Asker hedef konuma gidebilicek durumda ise , yardým birimlerinin(koruyucularýn) koordinat bilgileri verilicek.
+	- Asker hedef konuma gidemiyicek durumda ise , yardým birimlerine askerimizin koordinatlarý verilicek.
+4) Bu iþlemler sonucunda hedefler bir araya gelerek etkileþime geçicek ve hangi sorun yaþanýyor ise birlikte çözüm
+sürecine giricek.
+
+
+1.7.2 Kurallarý:
+
+1.7.2.1. Þifre ihlali:
+	Asker sisteme giriþ yaptýðýnda bilgiler istenicek ve kendisinden bir þifre talebi olucak.Bu þifre daha önce belirlenmiþ bir þifre olucak.
+Þifreyi sadace asker ve askeri üsü bilicektir.Bu yüzden bunu gizli bir bildirim aracý olarak kullanmak istedim.Çünkü eðer asker tehdit altýnda ise
+veya esir durumda ise ondan koruyucunun bilgilerini öðrenmek için sisteme giriþ yapmasý tehdit altýnda söyleyebilirler.Bu yüzden asker þifre girdiði
+zaman ekrana sadace talebiniz iletildi diye bir mesaj çýkýcak.Þifre doðru girdiniz veya yanlýþ girdiniz diye bir mesaj çýkartmamýn sebebi eðer asker
+tehdit altýnda ise þifreyi sisteme yanlýþ giricek ve buda askeri üsden görünücek daha sonrasýnda askerin tehdit altýnda olduðunu anlaþýlýcak ve
+buna yönelik tedbirler alýnacak.
+1.7.2.2. Askerin hedef konuma gidebilme durumu:
+	Asker sisteme giri yaptýðýnda "Hedef konuma gidebilecek durumdamýsýnýz?" diye bir soru yöneltilicek eðer bu soruya evet yanýtýný verir ise
+askerin ekranýna yardým birimlerinin koordinatlarý verilicek ve yardým birimlerine ilerlenmesi istenicektir.Eðer hayýr yanýtý verir ise koruyucunun
+ ekranýna askerin koordinat bilgileri verilicek ve askerin konumuna dorðu ilerlenmesi istenicektir.
+1.7.2.3. Asker ve yardýmbirimi(koruyucu) arasýnda kurulucak bað:
+	Sistemde bütün iþlemler tamamlandýkdan sonra asker ve koruyucu arasýnda bir bað olmasý adýna bir sohbet bölümü olucaktýr.Bu bölümde asker
+ve koruyucu diyalog kurup iletiþim yapmasý saðlanacaktýr.
+
+
+1.7.3. Sistemin kapsamý:
+	Sistemin kapsamý sadace askerler için kullanmasý dýþýnda herhangi bir görev bölümününde ayný þekilde kullanýlabilir.Polisler,doktorlar,öðretmenler vb.
+gibi bölümlerde de ayný þekilde sistem çalýþabilir ve düzenlenebilir.Buda bir çok alanda sistemin elveriþli olmasýný saðlýyor.
+
+
+1.8. Varlýklarýn tanýtýmý:
+
+1.8.1. Asker: Askerlik mükellefiyeti altýna giren þahýslarla (Erbaþ ve erler) özel kanunlarla Silahlý Kuvvetlere intisabeden ve resmi bir kýyafet taþýyan þahsa denir.
+1.8.2. Koruyucu: Ülkenin bazý bölgelerinde , bulunuduðu bölgeyi korumak ve gözetlemek için görevlendirmiþ þahsa denir.
+1.8.3. Askeri üs: Askerlerin görevlendirildiði ve görev durumunda etkin olan resmi devlet kurumu.
+
+
+1.9. Proje hedef kitlesi, talibi
+
+1.9.1. Hedef kitle:
+	Projenin hedef kitlesi görevde bulunan askerler ve askerlere yardýmcý olmakla amaçýyla görevlendirilmiþ koruyucular.Bu sistemi bir çok alandada kullanabiliriz.
+Örneðin bir öðretmen içinde bu sistem geçerli olabilir bir doktor içinde veya bir vatandaþ için bile geçerli olabilir.
+1.9.2. Talibi:
+	Projenin kullanýlýcaðý alan askeri olduðu için devlet tarafýndan ilgi görmesi beklenebilir.Bu yüzden bu projenin talibi devlet için görev alan askeri alanlar
+olabilir.
+
+
+1.10. Projede kullanýlmasý planlanan metot ve araçlar:
+1.10.1. En yakýn koruyucuyu bulmak:
+	Sistem yakýn koruyucuyu bulmak üzerine tasarladýðý için mevcut koruyucu konumlarýndan en yakýn olaný iþleme alacaktýr.
+1.10.2. Koruyucu ve asker arasýnda sanal bað:
+	Koruyucu ve asker arasýnda iletiþime geçebiliceklere bir bölüm olucaktýr. Bu bölüm sayesinde iþlemler kolaylýk kazanacaktýr.
+
+
+
+1.11.  Gelecekte olabilicek unsurlar:
+1.11.1. Yüz tanýma sistemi:
+	Sisteme giriþ yapýlýrken giriþ yapýcak olan kullanýcýnýn yüz taramasýný gerçekleþtirebilir ve buna göre bir yol izleyebiliriz.
+
+2.FÝZÝBÝLÝTE
+
+
+
+
+2.1. Ekonomik Fizibilite: 
+	Sistem kurulmasý için gerekli olan alýnmasý zorunlu bir takým araçlar var ve bunlarý kullanýlmasý için gerekli ortamlar gereklidir.
+
+2.1.1.Sistemi kurmak için gerekli olan malzemeler :
+2.1.1.1. Askerimiz sisteme giriþ için kullanýcaðý tablet:
+
+Samsung Galaxy Tab E T560
+Fiyat: 879.00 TL
+Gerekli adet sayýsý: 2
+
+Özellikleri
+Renk: Beyaz
+Ýþlemci: Dört Çekirdekli Ýþlemci
+Bellek:1.5 GB
+Sabit: Disk (HDD)8 GB
+Ekran: Ebatý9,6"
+Ekran Çözünürlüðü: 1280 x 800 Piksel
+Ekran Türü:Kapasitif Ekran
+3G: Yok
+4G: Yok
+Wi-Fi:802.11 b / g / n
+HDMI:Yok
+Bluetooth Özelliði:Var
+Ön Kamera: Var
+Arka Kamera: 5 MP
+Boyut: 241.9 x 8.5 x 149.5 mm
+Aðýrlýk: 490 Gr
+Pil: 5000mAh Li-ion-Polymer
+GPS: Var
+3D Özelliði: Yok
+Ýþletim Sistemi: Android 4.4 KitKat
+Dock (Klavye): Yok
+Garanti: 24 Ay Garanti 
+
+2.1.1.2. Askeri üssden durumlarý kontrol etmek amaçýyla kullanýlan bilgisayar.
+
+HP ProOne 440 G3 1KP24EA All in One Masaüstü Pc
+Fiyatý: 2924.00 TL
+Gerekli adet sayýsý: 1
+
+ÜRÜN ÖZELLÝKLERÝ
+ÝÞLEMCÝ TÜRÜ: Intel Core i3
+ÝÞLEMCÝ: Intel Core i3 7100T - 3.4 GHz 3 MB Önbellek
+RAM: 4 GB DDR4 2133 MHz
+HARDDÝSK KAPASÝTESÝ: 1 TB SATA (7200 Rpm) HDD
+ÝÞLETÝM SÝSTEMÝ: FreeDos (windows iþletim sistemi yoktur)
+EKRAN KARTI: Intel HD Graphics / Paylaþýmlý
+EKRAN BOYUTU: 23.8" Full HD IPS WLED (1920 x 1080)
+EKRAN ÇÖZÜNÜRLÜÐÜ: 1920 x 1080
+SES ÇIKIÞI: Realtek ALC3252
+Güç: 150 W
+Klavye - Mouse: Var
+DOKUNMATÝK EKRAN: Yok
+WEBCAM: Var
+RJ45-ETHERNET: Var
+WIRELESS LAN: Var
+AÐIRLIK: 7.27 kg
+ARAYÜZLER
+USB (2.0): 2
+USB (3.0): Var
+USB (3.1): Var
+DISPLAY PORT: Var
+HDMI: Var
+KART OKUYUCU: Var
+KULAKLIK ÇIKIÞI: Var
+GARANTÝ SÜRESÝ: 2 Yýl
+
+2.1.2. LEAN CANVAS Tablosu:
+
+
+2.2. Zamansal Fizibilite:
+
+2.2.1. Hedef projeyi belirleme:
+	Projeimn konusunu bulmak için baþladýðým zaman 04.11.2018 ve bu süreç 1 gün sürdü.Bu süreçin bitiþi 05.11.2018'dir.
+2.2.2. Sorunun çözümü:
+	Hedef konumu belirtikden sonra bu sorunu çözmeye yönelik çalýþmalar baþlatým ve bu sürec 2 gün sürdü.
+Bu süreçin bitiþi 07.11.2018'dir.
+2.2.3. Sistem tasarýmý:
+	Konuyu belirtikden ve sorunlarý çözüme ulaþtýrdýkdan sonra tasarým aþamasýna geçtim ve bu bölümde
+sistemin kabaca taslagýný hazýrladým. Bu süreçin bitiþi 10.11.2018'dir..
+2.2.4. Kod yazýmý:
+	Bu süreç de sistemin tasarýmý bittikden sonra kodlamalara baþlanýldý.Bu süreçin bitiþi 18.11.2018'dir.
+2.2.5. Sistem gereksinimleri:
+	Bu bölümde mevcut sistemin gereksinimlerini karþýlamak için nelere ihtiyaç olduðunu araþtýrdým ve
+bir bütçe tablosu hazýrladým.Bu süreçin bitiþi 21.11.2018'dir.
+2.2.6. Sistemin kurulmasý:
+	Bu bölümde sistemi kurmak hedeflendi.Ama bu süreçin baþlamasý için üç farklý süreçin bitmesi gerekmekteydi.
+Sistem tasarýmý ve kod yazýmý bittiði halde sistem gereksinimleri temin edilmediði için bu süreç sistem gereksinimlerinin
+temininden sonra baþladý.Bu süreçin bitiþi 28.11.2018'dir.
+2.2.7. Test süreci:
+	Bu bölümde sistemin test aþamasýný kapsýyor.Sistem üzerinde testler yapýldý ve daha sonrasýnda bir sorun
+olmadýðý belirlendi. Bu süreçin bitiþi 03.01.2019'dur.
+2.2.8. Sunum
+	Bu bölümde sistem son halini aldý ve sunuldu. Bu süreçin bitiþi 04.01.2019'dur.
+
+
+
+
+
+
+
+	

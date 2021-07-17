@@ -1,0 +1,10 @@
+C:\Users\batuh\source\repos\KoruyucuProcedur\KoruyucuProcedur\bin\Debug\KoruyucuProcedur.exe.config
+C:\Users\batuh\source\repos\KoruyucuProcedur\KoruyucuProcedur\bin\Debug\KoruyucuProcedur.exe
+C:\Users\batuh\source\repos\KoruyucuProcedur\KoruyucuProcedur\bin\Debug\KoruyucuProcedur.pdb
+C:\Users\batuh\source\repos\KoruyucuProcedur\KoruyucuProcedur\obj\Debug\KoruyucuProcedur.csprojAssemblyReference.cache
+C:\Users\batuh\source\repos\KoruyucuProcedur\KoruyucuProcedur\obj\Debug\KoruyucuProcedur.Form1.resources
+C:\Users\batuh\source\repos\KoruyucuProcedur\KoruyucuProcedur\obj\Debug\KoruyucuProcedur.Properties.Resources.resources
+C:\Users\batuh\source\repos\KoruyucuProcedur\KoruyucuProcedur\obj\Debug\KoruyucuProcedur.csproj.GenerateResource.cache
+C:\Users\batuh\source\repos\KoruyucuProcedur\KoruyucuProcedur\obj\Debug\KoruyucuProcedur.csproj.CoreCompileInputs.cache
+C:\Users\batuh\source\repos\KoruyucuProcedur\KoruyucuProcedur\obj\Debug\KoruyucuProcedur.exe
+C:\Users\batuh\source\repos\KoruyucuProcedur\KoruyucuProcedur\obj\Debug\KoruyucuProcedur.pdb
